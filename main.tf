@@ -1,6 +1,6 @@
 resource "aws_iam_role" "contoso-testing-terraform-role-devops" {
   name     = "contoso-testing-terraform-role-devops"
-  provider = aws.contoso-testing
+  #provider = aws.contoso-testing
   assume_role_policy = jsonencode(
     {
       "Version" : "2012-10-17",
