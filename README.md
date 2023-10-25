@@ -31,5 +31,7 @@
         cd contoso-testing
         git remote rm -v
    
-
+   5.Create AWS Role
+       5.1 touch main.tf versions.tf outputs.tf variables.tf
+       5.2 
     
