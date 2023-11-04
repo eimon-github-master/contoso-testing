@@ -6,7 +6,7 @@
 2. Terraform Cloud : Create organization 
    2.1 Create testing workspace
 
-3. Githug and Terraform API integration
+3. Githug and Terraform API integratison
     3.1 Connect to VCS(TFC)
     3.2 Setup Provider(TFC)
     3.3 Setting > Developer setting > Register a new OAuth application 
@@ -33,5 +33,13 @@
    
    5.Create AWS Role
        5.1 touch main.tf versions.tf outputs.tf variables.tf
-       5.2 
+       5.2 push to Github and TFC auto trigger.
     
+   6. hashicat-aws application
+      6.1 git clone https://github.com/hashicorp/hashicat-aws.git hashicat-aws-bca-github-testing
+      cd hashicat-aws-bca-github-testing
+      git remote rm origin
+
+   7. split the terraform meow app.
+       7.1 touch meow-vpc.tf meow-sg.tf
+
