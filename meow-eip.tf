@@ -5,5 +5,5 @@ resource "aws_eip" "contoso_eip" {
 
 resource "aws_eip_association" "contoso_eipa" {
   instance_id   = aws_instance.contoso_webapp.id
-  allocation_id = aws_eip.hashicat.id
+  allocation_id = aws_eip.contoso_eip.id
 }
