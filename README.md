@@ -51,5 +51,8 @@
 
 7. split the terraform meow app.
    - 7.1 touch meow-vpc.tf meow-sg.tf meow-igw-rt.tfMacBook-Pro:meow-ap
+  
 
-   
+
+   ![Infrastructure-Automation-Leveraging-Terraform-Cloud-and-AWS](https://github.com/eimon-github-testing/contoso-testing/assets/142704627/1f74bb22-cf68-4968-b9e1-a42c3524ecd0)
+
