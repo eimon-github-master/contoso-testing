@@ -52,4 +52,4 @@
 7. split the terraform meow app.
    - 7.1 touch meow-vpc.tf meow-sg.tf meow-igw-rt.tfMacBook-Pro:meow-ap
 
-    <img width="183" alt="Screenshot 2023-10-25 at 22 32 42" src="https://github.com/eimon-github-testing/contoso-testing/assets/142704627/884db8e9-0092-4d24-9f97-21c8b091d9ae">
+   
